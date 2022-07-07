@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>2 Lies n a Crime Podcast</title>
-        <meta name="description" content="2 Lies n a Crime Podcast" />
+        <meta name="description" content="2 Lies n a Crime Podcast. Episodes, transcripts, and other information." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
