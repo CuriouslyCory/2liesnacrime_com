@@ -26,10 +26,10 @@ export const EpisodePage: NextPage = (): JSX.Element => {
                     <meta property="og:title" content={episode.title} />,
                     <meta property="og:description" content={episode.description} />,
                     <meta property="og:url" content={`https://www.2liesinacrime.com/episode/${episode.slug}`} />,
-                    <meta property="og:image" content={logo} />,
+                    <meta property="og:image" content="https://www.2liesnacrime.com/teaser-logo.jpg" />,
                     <meta name="twitter:title" content={episode.title} />,
                     <meta name="twitter:description" content={episode.description} />,
-                    <meta name="twitter:image" content={logo} />,
+                    <meta name="twitter:image" content="https://www.2liesnacrime.com/teaser-logo.jpg" />,
                     <meta name="twitter:card" content="summary_large_image" />,
                 ]
             )}
