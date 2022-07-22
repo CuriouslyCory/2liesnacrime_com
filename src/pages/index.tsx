@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import logo from "../../public/full-logo.svg";
 import { EpisodeCard } from "../components/episode-card";
 import { trpc } from "../utils/trpc";
@@ -21,8 +22,33 @@ const Home: NextPage = () => {
         <meta name="twitter:image" content="https://www.2liesnacrime.com/teaser-logo.jpg" />,
         <meta name="twitter:card" content="summary_large_image" />,
       </Head>
-      <div className="bg-amber-300 w-full flex justify-center">
+      <div className="bg-slate-800 w-full flex justify-center">
+        <div className="flex w-full justify-start max-w-6xl py-5">
+            <h1 className="text-2xl font-serif text-white">True Crime with a Twist</h1>
+        </div>
+      </div>
+      <div className="bg-amber-300 w-full flex justify-center pb-10">
         {episodes && episodes.map((episode) => <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />)}
+      </div>
+      <div className="flex w-full justify-center p-10">
+        <div className="block mt-5">
+          <Link href="/episodes">
+            <button className="block rounded-full text-2xl py-4 px-10 font-bold bg-amber-300">More Episodes</button>
+          </Link>
+        </div>
+      </div>
+      <div className="bg-slate-800 w-full flex justify-center">
+        <div className="flex w-full justify-start max-w-6xl py-10">
+            <h1 className="text-4xl font-serif text-white">Hosts</h1>
+        </div>
+      </div>
+      <div className="w-full flex justify-center gap-x-10 mt-10">
+        <div className="p-10 bg-teal-700 rounded-lg">
+          <span className="font-bold text-white text-2xl">Gretta Jane</span>
+        </div>
+        <div className="p-10 bg-teal-700 rounded-lg">
+          <span className="font-bold text-white text-2xl">Raynee King</span>
+        </div>
       </div>
     </>
   );
