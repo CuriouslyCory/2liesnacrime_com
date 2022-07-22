@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate",
+    "generate-client": "prisma generate --data-proxy",
+    "postinstall": "prisma generate --data-proxy",
     "generate-seed": "yarn ts-node -P ./tsconfig.json --transpile-only prisma/generate-seed.ts"
   },
   "prisma": {
