@@ -9,7 +9,7 @@ type DefaultLayoutProps = { children: ReactNode };
 export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
 
   return (
-    <main className="flex flex-col items-center">
+    <>
       <Head>
         <title>2 Lies in a Crime Podcast</title>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
@@ -17,8 +17,8 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <header className="w-full bg-[#EFC210]">
-        <div className="flex pt-2 px-2 max-w-4xl mx-auto">
+      <header className="w-full bg-amber-300 py-5">
+        <div className="flex px-2 max-w-4xl mx-auto">
           <Image src={logo} height={75} width={75} alt="Illistration of two cats sitting on a crecent moon, holding wine glasses with their tails, with text 2 lies in a crime." />
           <ul className="flex gap-x-5 items-center justify-center ml-auto">
             <li><Link href="/">Home</Link></li>
@@ -28,9 +28,11 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
           </ul>
         </div>
       </header>
-      <main>{children}</main>
+      <main className="flex flex-col items-center h-screen bg-teal-50 w-full">
+        {children}
+      </main>
 
       
-    </main>
+    </>
   );
 };
