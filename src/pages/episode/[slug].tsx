@@ -12,8 +12,7 @@ export const EpisodePage: NextPage = (): JSX.Element => {
         [
             "episode.bySlug",
             { slug : !!slug && !Array.isArray(slug) ? slug : "" }
-        ], 
-        { enabled: !!slug }
+        ]
     );
 
     return (
@@ -27,10 +26,17 @@ export const EpisodePage: NextPage = (): JSX.Element => {
                     <meta property="og:description" content={episode.description} />,
                     <meta property="og:url" content={`https://www.2liesinacrime.com/episode/${episode.slug}`} />,
                     <meta property="og:image" content="https://www.2liesnacrime.com/teaser-logo.jpg" />,
+                    <meta property="article:publisher" content="https://www.facebook.com/2-Lies-in-a-Crime-10665654212924" />,
+                    <meta property="article:published_time" content={episode.createdAt.toISOString()} />,
+                    <meta property="article:modified_time" content={episode.updatedAt.toISOString()} />,
                     <meta name="twitter:title" content={episode.title} />,
                     <meta name="twitter:description" content={episode.description} />,
                     <meta name="twitter:image" content="https://www.2liesnacrime.com/teaser-logo.jpg" />,
                     <meta name="twitter:card" content="summary_large_image" />,
+                    <meta name="twitter:label1" content="Written by" />,
+                    <meta name="twitter:data1" content="2 Lies in a Crime Podcast" />,
+                    <meta name="twitter:label2" content="Est. listen time" />,
+                    <meta name="twitter:data2" content="30 minutes" />
                 ]
             )}
         </Head>

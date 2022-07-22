@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />,
+        <meta property="og:type" content="website" />,
         <meta property="og:title" content="Two Lies in a Crime Podcast" />,
         <meta property="og:description" content="True crime with a twist, some of the story isn't true." />,
         <meta property="og:url" content="https://www.2liesinacrime.com/" />,
