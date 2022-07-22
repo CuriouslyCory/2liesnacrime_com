@@ -6,9 +6,9 @@ generator client {
 }
 
 datasource db {
-    provider = "sqlite"
-    url      = "file:./db.sqlite"
-    // url      = env("DATABASE_URL")
+    provider = "postgresql"
+    //url      = "file:./db.sqlite"
+    url      = env("DATABASE_URL")
 }
 
 model Example {
@@ -48,6 +48,7 @@ model User {
     email         String?   @unique
     emailVerified DateTime?
     image         String?
+    isAdmin       Boolean @default(false)
     accounts      Account[]
     sessions      Session[]
 }
@@ -58,4 +59,39 @@ model VerificationToken {
     expires    DateTime
 
     @@unique([identifier, token])
+}
+
+model Episode {
+    id              String    @id @default(cuid())
+    slug            String    @unique
+    title           String
+    description     String
+    tags            TagsOnEpisodes[]
+    comments        Comment[]
+    spotifyUrl      String
+    createdAt       DateTime      @default(now())
+    updatedAt       DateTime      @default(now()) @updatedAt
+}
+
+model TagsOnEpisodes {
+    episode     Episode @relation(fields: [episodeId], references: [id])
+    episodeId   String
+    tag         Tag @relation(fields: [tagId], references: [id])
+    tagId       Int
+
+    @@id([episodeId, tagId])
+}
+
+model Tag {
+  id        Int         @id @default(autoincrement())
+  name      String
+  episodes   TagsOnEpisodes[]
+}
+
+model Comment {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String
+  Episode   Episode? @relation(fields: [episodeId], references: [id])
+  episodeId String
 }
