@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             <h1 className="title-font font-serif text-4xl pb-5">Ep.1: Sarah Ann Walker</h1>
             <p className= "pb-3" >Let me tell you about Sarah Ann Walker. And tell me where the lies are @ <a href="mailto:2liesinacrime@gmail.com">2liesinacrime@gmail.com</a></p>
             <Link href="https://open.spotify.com/episode/4ETUUsgQVePYrrsNO3I1MZ?si=f9125570ca224b6b">
-              <span className="underline">Listen now on Spotify</span>
+              <span className="underline cursor-pointer">Listen now on Spotify</span>
             </Link>
           </div>
           <div className="bg-gray-50 p-10 rounded-lg">
