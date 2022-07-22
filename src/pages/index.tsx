@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="bg-amber-300 w-full flex justify-center">
-        <div className="hero flex flex-row w-full mt-20 max-w-4xl mb-10 bg-amber-200 p-10 rounded-lg">
+        <div className="hero flex flex-col sm:flex-col md:flex-row gap-y-5 w-full mt-20 max-w-6xl mb-10 bg-amber-200 p-10 rounded-lg gap-x-5 ">
           <div id="left-section" className="flex flex-col h-full">
             <span className="font-bold pb-5">Featured episode</span>
             <h1 className="title-font font-serif text-4xl pb-5">Ep.1: Killer Real Estate</h1>
