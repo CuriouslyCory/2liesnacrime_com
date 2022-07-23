@@ -17,7 +17,7 @@ export const defaultEpisodeSelect = Prisma.validator<Prisma.EpisodeSelect>()({
 
 export const episodeRouter = createRouter()
   .query("all", {
-    async resolve({ctx}) {
+    async resolve({ ctx }) {
       return ctx.prisma.episode.findMany({
         select: defaultEpisodeSelect,
       });
@@ -46,7 +46,7 @@ export const episodeRouter = createRouter()
     input: z.object({
       slug: z.string(),
     }),
-    async resolve({ctx, input}) {
+    async resolve({ ctx, input }) {
       const { slug } = input;
       const episode = await ctx.prisma.episode.findUnique({
         where: { slug },
@@ -59,10 +59,23 @@ export const episodeRouter = createRouter()
         });
       }
       return episode;
-    }
+    },
   })
   .mutation("update", {
     input: z.object({
-      
-    })
+      id: z.string().uuid().optional(),
+      slug: z.string(),
+      title: z.string(),
+      description: z.string(),
+    }),
+    async resolve({ ctx, input }) {
+      const { id, ...data } = input;
+      const episode = await ctx.prisma.episode.update({
+        where: {
+          id,
+        },
+        data,
+        select: defaultEpisodeSelect,
+      });
+    },
   });

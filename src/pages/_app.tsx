@@ -13,7 +13,9 @@ const MyApp: AppType = ({
 }) => {
   return (
     <SessionProvider session={session}>
-      <DefaultLayout><Component {...pageProps} /></DefaultLayout>
+      <DefaultLayout>
+        <Component {...pageProps} />
+      </DefaultLayout>
     </SessionProvider>
   );
 };
@@ -39,7 +41,7 @@ export default withTRPC<AppRouter>({
     // optional: use SSG-caching for each rendered page (see caching section for more details)
     const ONE_DAY_SECONDS = 60 * 60 * 24;
     ctx?.res?.setHeader(
-      'Cache-Control',
+      "Cache-Control",
       `s-maxage=1, stale-while-revalidate=${ONE_DAY_SECONDS}`,
     );
 
@@ -48,7 +50,7 @@ export default withTRPC<AppRouter>({
       transformer: superjson,
       headers: {
         // optional - inform server that it's an ssr request
-        'x-ssr': '1',
+        "x-ssr": "1",
       },
       /**
        * @link https://react-query.tanstack.com/reference/QueryClient

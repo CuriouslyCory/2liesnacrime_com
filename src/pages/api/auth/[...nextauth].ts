@@ -16,11 +16,11 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
-    session:async ({session, user}) => {
+    session: async ({ session, user }) => {
       session.id = user.id;
       return Promise.resolve(session);
-    }
-  }
+    },
+  },
 };
 
 export default NextAuth(authOptions);
