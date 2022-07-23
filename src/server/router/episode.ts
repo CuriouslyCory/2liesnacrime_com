@@ -60,24 +60,9 @@ export const episodeRouter = createRouter()
       }
       return episode;
     }
-  });
-
-
-export const exampleRouter = createRouter()
-  .query("hello", {
-    input: z
-      .object({
-        text: z.string().nullish(),
-      })
-      .nullish(),
-    resolve({ input }) {
-      return {
-        greeting: `Hello ${input?.text ?? "world"}`,
-      };
-    },
   })
-  .query("getAll", {
-    async resolve({ ctx }) {
-      return await ctx.prisma.example.findMany();
-    },
+  .mutation("update", {
+    input: z.object({
+      
+    })
   });
