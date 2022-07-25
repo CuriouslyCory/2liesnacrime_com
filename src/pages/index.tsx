@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import logo from "../../public/full-logo.svg";
 import { EpisodeCard } from "../components/episode-card";
 import { trpc } from "../utils/trpc";
 
@@ -39,13 +38,14 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />,
       </Head>
       <div className="bg-slate-800 w-full flex justify-center">
-        <div className="flex w-full justify-start max-w-6xl py-5">
+        <div className="flex flex-col text-white w-full justify-start max-w-6xl py-5 px-5 md:px-0">
           <h1 className="text-2xl font-serif text-white">
             True Crime with a Twist
           </h1>
+          <span>New episodes every Wednesday</span>
         </div>
       </div>
-      <div className="bg-amber-300 w-full flex justify-center pb-10">
+      <div className="bg-amber-200 w-full flex justify-center pb-10 px-5 md:px-0">
         {episodes &&
           episodes.map((episode) => (
             <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="bg-slate-800 w-full flex justify-center">
-        <div className="flex w-full justify-start max-w-6xl py-10">
+        <div className="flex w-full justify-start max-w-6xl py-10 px-5 md:px-0">
           <h1 className="text-4xl font-serif text-white">Hosts</h1>
         </div>
       </div>

@@ -43,7 +43,7 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
             </ul>
           </div>
         </header>
-        <main className="bg-teal-50 w-full min-h flex flex-col flex-grow">
+        <main className="bg-teal-50 w-full min-h flex flex-col flex-grow ">
           {children}
         </main>
 

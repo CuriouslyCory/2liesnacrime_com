@@ -47,7 +47,7 @@ const About: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />,
       </Head>
       <div className="bg-slate-800 w-full flex justify-center">
-        <div className="flex w-full justify-start max-w-6xl py-10">
+        <div className="flex w-full justify-start max-w-6xl py-10 px-5 md:px-0">
           <h1 className="text-4xl font-serif text-white">About</h1>
         </div>
       </div>
