@@ -4,6 +4,8 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+const staticPages = ["episodes", "about", "contact"];
+
 const siteMap = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const smStream = new SitemapStream({
@@ -12,6 +14,16 @@ const siteMap = async (req: NextApiRequest, res: NextApiResponse) => {
 
     // List of posts
     const episodes = await prisma.episode.findMany({});
+
+    // Create each URL row
+    staticPages.forEach((page) => {
+      smStream.write({
+        url: `/${page}`,
+        changefreq: "weekly",
+        lastmod: "2022-07-22T20:25:22.866Z",
+        priority: 0.9,
+      });
+    });
 
     // Create each URL row
     episodes.forEach((post) => {
