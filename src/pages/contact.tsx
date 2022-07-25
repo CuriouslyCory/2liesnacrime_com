@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import logo from "../../public/full-logo.svg";
 import EpisodeListItem from "../components/episode-list-item";
 import { trpc } from "../utils/trpc";
@@ -55,8 +57,18 @@ const Contact: NextPage = () => {
         </div>
       </div>
       <div className="bg-amber-300 w-full flex justify-center">
-        <div className="hero flex flex-col sm:flex-col md:flex-row gap-y-5 w-full mt-20 max-w-6xl mb-10 bg-amber-200 p-10 rounded-lg gap-x-5 mx-5 justify-around">
-          <span className="font-sans text-xl">Contact us</span>
+        <div className="hero flex flex-col gap-y-5 w-full mt-20 max-w-6xl mb-10 bg-amber-200 p-10 rounded-lg gap-x-5 mx-5 justify-around">
+          <span className="font-sans text-xl">Follow us on</span>
+          <Link href="https://www.facebook.com/2-Lies-in-a-Crime-106656542129241">
+            <div className="flex flex-row gap-x-3 items-center cursor-pointer">
+              <FaInstagram /> Instagram
+            </div>
+          </Link>
+          <Link href="https://www.facebook.com/2-Lies-in-a-Crime-106656542129241">
+            <div className="flex flex-row gap-x-3 items-center cursor-pointer">
+              <FaFacebook /> Facebook
+            </div>
+          </Link>
         </div>
       </div>
     </>
