@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           <span>New episodes every Wednesday</span>
         </div>
       </div>
-      <div className="bg-amber-200 w-full flex justify-center pb-10 px-5 md:px-0">
+      <div className="bg-amber-200 w-full flex flex-col items-center justify-center gap-y-3 pb-10 px-5 md:px-0">
         {episodes &&
           episodes.map((episode) => (
             <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />
