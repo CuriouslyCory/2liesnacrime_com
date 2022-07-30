@@ -19,7 +19,7 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col h-screen justify-between">
-        <header className="w-full bg-amber-300 py-5">
+        <header className="w-full bg-cyan-300 py-5">
           <div className="flex px-2 max-w-6xl mx-auto">
             <Image
               src={logo}
