@@ -50,7 +50,7 @@ const Episodes: NextPage = () => {
           <h1 className="text-4xl font-serif text-white">All Episodes</h1>
         </div>
       </div>
-      <div className="w-full flex justify-center z-10">
+      <div className="w-full flex flex-col items-center justify-center z-10">
         {episodes &&
           episodes.map((episode) => (
             <EpisodeListItem
