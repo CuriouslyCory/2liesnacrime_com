@@ -64,11 +64,18 @@ model VerificationToken {
 model Episode {
     id              String    @id @default(cuid())
     slug            String    @unique
+    seasonNumber    Int       @default(0)
+    episodeNumber   Int       @default(0)
     title           String
     description     String
     tags            TagsOnEpisodes[]
     comments        Comment[]
-    spotifyUrl      String
+    spotifyUrl      String      @default("")
+    audioUrl        String      @default("")
+    artworkUrl      String      @default("")
+    duration        Int         @default(0)
+    buzzsproutId    Int         @default(0)
+    buzzsproutGuid  String      @default("")
     createdAt       DateTime      @default(now())
     updatedAt       DateTime      @default(now()) @updatedAt
 }
