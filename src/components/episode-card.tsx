@@ -33,7 +33,9 @@ export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
         <div className="block mt-5">
           <div id={`buzzsprout-player-${episode.buzzsproutId}`}></div>
           <Script
-            src={`https://www.buzzsprout.com/2020224/${urlCode()}.js?container_id=buzzsprout-player-${episode.buzzsproutId}&player=small`}
+            src={`https://www.buzzsprout.com/2020224/${urlCode()}.js?container_id=buzzsprout-player-${
+              episode.buzzsproutId
+            }&player=small`}
             type="text/javascript"
           />
         </div>
