@@ -26,6 +26,9 @@ export const episodeRouter = createRouter()
     async resolve({ ctx }) {
       return ctx.prisma.episode.findMany({
         select: defaultEpisodeSelect,
+        orderBy: {
+          createdAt: "desc",
+        },
       });
     },
   })

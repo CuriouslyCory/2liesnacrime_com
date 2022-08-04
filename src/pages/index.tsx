@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { EpisodeCard } from "../components/episode-card";
+import MainHero from "../components/main-hero";
 import { trpc } from "../utils/trpc";
 
 const Home: NextPage = () => {
@@ -45,7 +46,11 @@ const Home: NextPage = () => {
           <span>New episodes every Wednesday</span>
         </div>
       </div>
-      <div className="bg-amber-200 w-full flex justify-center pb-10 px-5 md:px-0">
+      <MainHero />
+      <div
+        className="bg-amber-200 w-full flex flex-col items-center justify-center gap-y-3 pb-10 px-5 md:px-0 bg-right bg-no-repeat bg-cover"
+        style={{ backgroundImage: "url('/images/yellow-corks.png')" }}
+      >
         {episodes &&
           episodes.map((episode) => (
             <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />
