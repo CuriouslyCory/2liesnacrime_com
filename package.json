@@ -12,7 +12,7 @@
     "generate-client": "prisma generate --data-proxy",
     "postinstall": "prisma generate --data-proxy",
     "generate-seed": "yarn ts-node -P ./tsconfig.json --transpile-only prisma/generate-seed.ts",
-    "migrate": "DATABASE_URL=\"$MIGRATE_DATABASE_URL\" prisma migrate deploy"
+    "migrate": "prisma migrate deploy"
   },
   "prisma": {
     "seed": "yarn ts-node prisma/seed.ts"
