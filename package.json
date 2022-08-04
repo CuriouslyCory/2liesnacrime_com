@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build:1-migrate": "run-s migrate",
+    "build:2-build": "next build",
+    "build": "run-s build:*",
     "start": "next start",
     "lint": "next lint",
     "generate-client": "prisma generate --data-proxy",
     "postinstall": "prisma generate --data-proxy",
-    "generate-seed": "yarn ts-node -P ./tsconfig.json --transpile-only prisma/generate-seed.ts"
+    "generate-seed": "yarn ts-node -P ./tsconfig.json --transpile-only prisma/generate-seed.ts",
+    "migrate": "DATABASE_URL=\"$MIGRATE_DATABASE_URL\" prisma migrate deploy"
   },
   "prisma": {
     "seed": "yarn ts-node prisma/seed.ts"
@@ -45,6 +48,7 @@
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "prisma": "^4.0.0",
