@@ -49,7 +49,7 @@ const Home: NextPage = () => {
       <MainHero />
       <div
         className="bg-amber-200 w-full flex flex-col items-center justify-center gap-y-3 pb-10 px-5 md:px-0 bg-right bg-no-repeat bg-cover"
-        style={{ backgroundImage: "url('/images/yellow-corks.png')" }}
+        style={{ backgroundImage: "url('/images/yellow-corks.webp')" }}
       >
         {episodes &&
           episodes.map((episode) => (
