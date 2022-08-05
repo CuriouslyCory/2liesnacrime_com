@@ -11,7 +11,6 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
     <>
       <Head>
         <title>2 Lies in a Crime Podcast</title>
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
         <meta
           name="description"
           content="2 Lies n a Crime Podcast. Episodes, transcripts, and other information."
