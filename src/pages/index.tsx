@@ -67,6 +67,14 @@ const Home: NextPage = () => {
               More Episodes
             </button>
           </Link>
+          <div className="relative h-64 w-64">
+            <Image
+              src={catLies}
+              layout="fill"
+              objectFit="contain"
+              alt="illustration of a cat ready to pounce with text saying I smell lies"
+            />
+          </div>
         </div>
       </div>
       <div className="bg-slate-800 w-full flex justify-center">
@@ -102,16 +110,6 @@ const Home: NextPage = () => {
           <span className="mt-5">
             &quot;There&apos;s 24 useable hours in every day.&quot;
           </span>
-        </div>
-      </div>
-      <div className="flex justify-end mr-5">
-        <div className="h-64 relative w-64">
-          <Image
-            src={catLies}
-            layout="fill"
-            objectFit="contain"
-            alt="illustration of a cat ready to pounce with text saying I smell lies"
-          />
         </div>
       </div>
     </>
