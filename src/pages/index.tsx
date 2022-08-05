@@ -6,6 +6,7 @@ import MainHero from "../components/main-hero";
 import { trpc } from "../utils/trpc";
 import gretta from "../../public/images/gretta.webp";
 import raynee from "../../public/images/raynee.webp";
+import catLies from "../../public/images/i-smell-lies.webp";
 import Image from "next/image";
 
 const Home: NextPage = () => {
@@ -101,6 +102,16 @@ const Home: NextPage = () => {
           <span className="mt-5">
             &quot;There&apos;s 24 useable hours in every day.&quot;
           </span>
+        </div>
+      </div>
+      <div className="flex justify-end mr-5">
+        <div className="h-64 relative w-64">
+          <Image
+            src={catLies}
+            layout="fill"
+            objectFit="contain"
+            alt="illustration of a cat ready to pounce with text saying I smell lies"
+          />
         </div>
       </div>
     </>
