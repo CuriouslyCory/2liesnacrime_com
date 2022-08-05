@@ -18,8 +18,8 @@ export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
   };
 
   return (
-    <div className="hero flex flex-col sm:flex-col md:flex-row gap-y-5 w-full max-w-6xl mt-20 mb-10 gap-x-5 justify-start">
-      <div id="left-section" className="flex flex-col h-full grow">
+    <div className="hero mx-auto grid grid-cols-3 grid-span-2 gap-5 my-10">
+      <div id="left-section" className="flex flex-col h-full col-span-2">
         <span className="font-bold pb-5">Featured episode</span>
         <h1 className="title-font font-serif text-4xl pb-5">{episode.title}</h1>
         <p className="pb-3">{episode.description}</p>
@@ -43,7 +43,10 @@ export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
           <Link href={`/transcripts/${episode.slug}`}>Episode Transcript</Link>
         </span>
       </div>
-      <div className="bg-gray-50 p-10 rounded-lg grow justify-center flex">
+      <div
+        id="right-section"
+        className="p-10 rounded-lg grow justify-center flex"
+      >
         <Image
           src={episode.artworkUrl}
           height={250}
