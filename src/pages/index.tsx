@@ -75,7 +75,12 @@ const Home: NextPage = () => {
       </div>
       <div className="grid grid-rows-2 md:grid-rows-none md:grid-cols-2 gap-5 p-10">
         <div className="p-10 bg-cyan-300 rounded-lg flex flex-col items-center">
-          <Image src={gretta} height="200" width="200" />
+          <Image
+            src={gretta}
+            height="200"
+            width="200"
+            alt="caracature of a woman with shoulder length blond hair, wearing a blue shirt, and glasses"
+          />
           <span className="font-bold text-white text-2xl bg-cyan-600 py-3 px-5 mt-3">
             Gretta Jane
           </span>
@@ -84,7 +89,12 @@ const Home: NextPage = () => {
           </span>
         </div>
         <div className="p-10 bg-cyan-300 rounded-lg flex flex-col items-center">
-          <Image src={raynee} height="200" width="200" />
+          <Image
+            src={raynee}
+            height="200"
+            width="200"
+            alt="caracature of a woman with shoulder length blond hair, wearing a blue shirt, and glasses"
+          />
           <span className="font-bold text-white text-2xl bg-cyan-600 py-3 px-5 mt-3">
             Raynee King
           </span>
