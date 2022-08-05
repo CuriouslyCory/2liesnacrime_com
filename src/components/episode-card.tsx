@@ -16,7 +16,7 @@ export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
   };
 
   return (
-    <div className="hero mx-auto grid grid-cols-3 grid-span-2 gap-5 my-10">
+    <div className="hero mx-auto grid grid-cols-3 grid-span-2 gap-5 my-10 max-w-6xl">
       <div id="left-section" className="flex flex-col h-full col-span-2">
         <span className="font-bold pb-5">Featured episode</span>
         <h1 className="title-font font-serif text-4xl pb-5">{episode.title}</h1>
