@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaSpotify } from "react-icons/fa";
 import { InferQueryOutput } from "../utils/trpc";
-import logo from "../../public/full-logo.svg";
 import Script from "next/script";
 
 export type EpisodeCardProps = {
