@@ -108,7 +108,7 @@ const Home: NextPage = () => {
             Raynee King
           </span>
           <span className="mt-5">
-            &quot;There&apos;s 24 useable hours in every day.&quot;
+            &quot;Kindness is like confetti; throw that S#%t EVERYWHERE!.&quot;
           </span>
         </div>
       </div>
