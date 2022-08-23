@@ -11,20 +11,20 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Raynee King <br />
         Hey there. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Hi.
         <br />
         <br />
         Raynee King <br />
         I&apos;m Randy Kean. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         And I&apos;m Greta Jain. Do you know your true crime? <br />
         <br />
         Raynee King <br />
         Can you call us out on our lies? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Our podcast is true crime with a twist. Sometimes it&apos;s not true.{" "}
         <br />
         <br />
@@ -34,49 +34,49 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         <br />
         So I&apos;m Rainy King. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         And I&apos;m Greta Jain. <br />
         <br />
         Raynee King <br />
         And we&apos;ve known each other for
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         20 something years something here. Yeah, I met you through my ex husband
         and yeah, I got you and the divorce. <br />
         <br />
         Raynee King <br />
         You won me? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yes. It was amazing. It was the best. It was the best. X divorce gift
         I&apos;ve ever gotten. And we&apos;ve had many adventures. <br />
         <br />
         Raynee King <br />
         So far. Two bottles of wine right now. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yes. And we do like to drink <br />
         <br />
         Raynee King <br />
         just recording this.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Getting into a lot of shenanigans.
         <br />
         <br />
         Raynee King <br />
         But that&apos;s okay. Let&apos;s make some great friendships. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yeah, absolutely <br />
         <br />
         Raynee King <br />
         Wine. And true crime.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         And who would have known I had no idea. I remember the day when I said,
         Hey, have you heard of this website? And you were like, yeah. It&apos;s
         like, wait, what?
@@ -85,7 +85,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Raynee King <br />
         I think that was only like, a couple years. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         It really was.
         <br />
         <br />
@@ -93,7 +93,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         So I don&apos;t know if I if this will offend you. And I was excuse you.{" "}
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I&apos;m a Patreon. What do you
         <br />
         <br />
@@ -108,26 +108,26 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Raynee King <br />
         Podcast? i This is my decision. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Well, I mean, <br />
         <br />
         Raynee King <br />
         it was our decision. I thought we were <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         in our drunken stupers, we always agreed on a route. <br />
         <br />
         Raynee King <br />
         I think it took us six months to figure out what to do.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         And it wasn&apos;t even my idea. <br />
         <br />
         Raynee King <br />
         We use new wine was gonna be involved. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Absolutely. <br />
         <br />
         Raynee King <br />
@@ -135,14 +135,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         true crime story. And I got so many facts wrong. And I was like, this is
         ingenius. This is what... I was a little drunk. A little <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         A little, <br />
         <br />
         Raynee King <br />
         Just a little drunk. And I and I had like, major facts incorrect. They
         weren&apos;t like, <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         you were embellishing or embellish. There you go. <br />
         <br />
         Raynee King <br />
@@ -150,49 +150,49 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         killing 15
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         He only killed 15
         <br />
         <br />
         Raynee King <br />
         ...15 women said he killed like 52 Just a few more. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Just a tiny bit. So thus, this podcast was born.
         <br />
         <br />
         Raynee King <br />
         Amazing. Righty <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         it really is. <br />
         <br />
         Raynee King <br />
         So today we&apos;ve already drinkin
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         drinkin is not a word.
         <br />
         <br />
         Raynee King <br />
         How many times <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         we&apos;ve drunk <br />
         <br />
         Raynee King <br />
         we&apos;ve drank two bottles the bottles? We had Stella Rosa black.{" "}
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yes. <br />
         <br />
         Raynee King <br />
         Which is lovely. and wonderful.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         It was the very first time you introduced me to that was red. That got
         me smashed. And now we&apos;re drinking the worst wine.
         <br />
@@ -202,7 +202,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         making my tongue fuzzy. It has something in there.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         It&apos;s just it&apos;s the Apothic Rosae. And it says it&apos;s a
         Rosae with the with dark secrets and the dark secret is that it&apos;s
         terrible.
@@ -213,7 +213,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         in the beginning. Because
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         because you&apos;re not drunk in the beginnings when
         <br />
         <br />
@@ -223,7 +223,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         warmes up to you. Maybe that&apos;s the secret is that it warms up to
         you and knocks you on your bum. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         There you go either. Yeah. Okay, well, wine suggestions will always be
         accepted. <br />
         <br />
@@ -231,7 +231,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Yes, please. And if you would like to send us your way. And
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         yes, we will accept that too. We will try it. And we will always give a
         really good honest review. Again, I don&apos;t think we&apos;re gonna be
         getting apothic rose as a sponsor.
@@ -241,14 +241,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Again, it sneaks up on you. So it&apos;s, I mean, was it terribly
         expensive? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         No, it was like $6 <br />
         <br />
         Raynee King <br />
         Oh so. So then
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         wine. It&apos;s amazing. Amazing. Because I feel like I got it when we
         were I was out of town and I didn&apos;t have enough liquor in my life.
         So I went and got it and I was like this is $6 Because I was paying a
@@ -259,7 +259,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         I&apos;ve never chased with wine.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         you&apos;re doing it wrong.
         <br />
         <br />
@@ -267,7 +267,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Oh my. Sorry, I just
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         so bad. <br />
         <br />
         Raynee King <br />
@@ -275,7 +275,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         got to sift through this one.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         There was a movie where it was while we were sleeping. And they told her
         to drink the eggnog very slowly and she was like, wanting to spit it
         out. She couldn&apos;t, that reminded me of that.
@@ -285,7 +285,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         While you were sleeping... they did that?
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         It was in a movie. And it was like, spiked eggnog. And they said, just
         to drink it slowly because it was terrible. And so she took a small sip,
         and then she was like, looking around like wanting to spit it out,
@@ -297,7 +297,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         every year, but it&apos;s
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         like it&apos;s still not good.
         <br />
         <br />
@@ -305,7 +305,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         It&apos;s like fruitcake.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Fruit cake tastes like brown.
         <br />
         <br />
@@ -313,7 +313,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         It really does. I don&apos;t know what brown tastes like, but it tastes
         for taste. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Exactly, 1000%
         <br />
         <br />
@@ -325,7 +325,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         own his own? Airbnb. Isn&apos;t that fantastic?
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Could you imagine?
         <br />
         <br />
@@ -333,7 +333,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         How many like dealers, they take stuff,
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         and they just got super tired. And they&apos;re like, I&apos;m just
         gonna take a nap before I head out.
         <br />
@@ -345,7 +345,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         sleep. Like hide in the bedroom lock the door.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Goldilocks in my bed. But it&apos;s a man and he stole my stuff.
         <br />
         <br />
@@ -354,7 +354,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         side of the pool.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Awesome. At least he enjoyed himself.
         <br />
         <br />
@@ -362,7 +362,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Living the best life ever.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I think that is yeah, that&apos;s like my there&apos;s a story that I
         heard where this guy kept getting random credit card purchases on his
         credit card and the he wasn&apos;t making any couldn&apos;t figure it
@@ -377,7 +377,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         What? What a horrible neighbor.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         So he got in trouble...
         <br />
         <br />
@@ -385,7 +385,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         I hope so.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         People are weird.
         <br />
         <br />
@@ -396,7 +396,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         a real estate agent in McKinley. Nope. Is that right?
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I don&apos;t know. I don&apos;t even know the story. <br />
         <br />
         Raynee King <br />
@@ -406,7 +406,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         kept going back to her stories.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         She needs her story told does.
         <br />
         <br />
@@ -414,34 +414,34 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         She does!
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         What&apos;s her name? Sarah?
         <br />
         <br />
         Raynee King <br />
         Sarah Ann Walker. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Sarah Ann Walker. Okay, who was a real estate agent?
         <br />
         <br />
         Raynee King <br />
         She was a real estate agent. Yes. In McKinley. McKinney. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         McKinney. <br />
         <br />
         Raynee King <br />
         McKinney, Texas. Okay, I&apos;m sorry I&apos;ve already drinkin
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         drinkin, <br />
         <br />
         Raynee King <br />
         drinkin... drinkin sort of a little bit of wine. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I don&apos;t think drinkin is a word. Sorry. <br />
         <br />
         Raynee King <br />
@@ -449,14 +449,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         found was, you know, like, I Have you ever gone to those, like home
         developments and like, look for decorating ideas? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         No.
         <br />
         <br />
         Raynee King <br />
         No, I do it all the time. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I don&apos;t even know what your talking about
         <br />
         <br />
@@ -464,13 +464,13 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Like those model homes are. Those model homes.
         <br />
         <br />
-        Gretta Jane <br />I go to model homes just to look at them, but not for
+        Greta Jane <br />I go to model homes just to look at them, but not for
         decorating Ideas. <br />
         <br />
         Raynee King <br />
         Yes. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         But I&apos;m obsessed with going and looking at model homes.
         <br />
         <br />
@@ -478,7 +478,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         I love going to look for like new decorating ideas. Well, this couple
         decided to do that. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Okay.
         <br />
         <br />
@@ -488,14 +488,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         brawl had happened in this room, and then a trail of blood led into the
         kitchen. And that&apos;s where they found Sarah Ann Walker. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh my gosh, <br />
         <br />
         Raynee King <br />
         She had been stabbed 27 times. Crap. I know.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Sounds like vicious attack.
         <br />
         <br />
@@ -507,14 +507,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         that were like perfectly drops. Like somebody was walking and it
         dropped, you know? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yeah. <br />
         <br />
         Raynee King <br />
         So because she was stabbed so many times. They figure they were able to
         find that those drops were not the same blood as hers. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Okay.
         <br />
         <br />
@@ -522,7 +522,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         so that was the killers blood along with the blood that was on the lock.{" "}
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         So she fought.
         <br />
         <br />
@@ -545,13 +545,13 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         there&apos;s this attractive blonde going.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Who was checking her out? <br />
         <br />
         Raynee King <br />
         The husband? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh the husband, Okay.
         <br />
         <br />
@@ -560,14 +560,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Yeah. Interview with him. He was like, very, very intrigued. Active
         blind coming up with this postcard. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         That&apos;s creepy. <br />
         <br />
         Raynee King <br />
         Yeah, I thought it was kind of creepy, but he&apos;s not the killer. So.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         So Well, thanks for the spoiler.
         <br />
         <br />
@@ -576,7 +576,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         time she came in. Even thought about they even thought about going and
         visiting with her. Right, <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Right. <br />
         <br />
         Raynee King <br />
@@ -585,14 +585,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         real estate agent.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         That you obviously find attractive. <br />
         <br />
         Raynee King <br />
         Exactly. Smart. Yeah, sorry. Anyways, so. So they left and 20 minutes
         later, that&apos;s when Sarah Walker was found. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh, God. Thats fast.
         <br />
         <br />
@@ -600,7 +600,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Yeah, because it was they left at one and she was found that like 1:20
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Holy cow. Yeah. So when they saw her go in, he she must have been
         immediately attacked
         <br />
@@ -609,7 +609,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         must have or very soon when they left. They saw the white Mustang behind
         her car. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yeah. Wow. Okay. <br />
         <br />
         Raynee King <br />
@@ -617,14 +617,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         weren&apos;t sure that he could clearly identify him got it. They only
         got a little glimpse things like that. So they hired a psychic <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Of course they did
         <br />
         <br />
         Raynee King <br />
         to read. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         As you do.
         <br />
         <br />
@@ -632,13 +632,13 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         For written they call it a forensic psychic.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh my god. That&apos;s a real thing. You could totally do that. <br />
         <br />
         Raynee King <br />
         Me. <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yeah,
         <br />
         <br />
@@ -646,7 +646,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         probably could I can get any answers for any I seriously,
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         you are like with your tarot cards and your intuition, you&apos;d be
         like, they&apos;re in a river, facedown. 500 miles away. And then they
         show up and they&apos;re like, Oh, I didn&apos;t mean that river. I
@@ -658,7 +658,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         other side of the country. That&apos;s that would
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         be $5,000. My fee. Thank you.
         <br />
         <br />
@@ -667,14 +667,14 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         from him that they were able to identify, like make a composite, like
         drawing, right? <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yeah. <br />
         <br />
         Raynee King <br />
         But it worked.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Maybe he was really good at describing
         <br />
         <br />
@@ -690,7 +690,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Okay, but still headphones
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         back to wasn&apos;t a good phone, but I had one right. Or you could just
         use a payphone. I mean, those are available to me at least back in 2006.
         Maybe not now, but. Okay. So she said no.
@@ -708,7 +708,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         know. I&apos;m horrible in
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         25 year old costume chatter Come on. I wouldn&apos;t even see
         <br />
         <br />
@@ -717,7 +717,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         the lie.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Well, it&apos;s recorded.
         <br />
         <br />
@@ -725,7 +725,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         My husband do that.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         With those scary music and
         <br />
         <br />
@@ -744,7 +744,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         didn&apos;t kill them.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         But did he do other things?
         <br />
         <br />
@@ -755,7 +755,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         that. Well,
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I bet she&apos;s second guessing those choices.
         <br />
         <br />
@@ -765,7 +765,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         that&apos;s your story. That&apos;s my
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         story. That&apos;s my story and I&apos;m sticking to it.
         <br />
         <br />
@@ -781,7 +781,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         off her son with him.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh, well, I mean, I could. Yeah. But he does have an
         <br />
         <br />
@@ -791,7 +791,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         there&apos;s daycare or something like this.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         My golfing is more important. babysitting my kid. All right. Well, so
         he&apos;s up. He&apos;s obviously back in
         <br />
@@ -804,7 +804,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         couple years ago, it got halted because they appealed the bite mark.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I hear that bike marks are like, like junk science, that it&apos;s like
         really, people claim to be like professionals with it. But you
         don&apos;t even need to have like a degree or any sort of study. You
@@ -820,7 +820,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         how can you throw out the DNA? Right?
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Well, and so he never admitted that he did it. There&apos;s
         <br />
         <br />
@@ -829,7 +829,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         I just know that he was convicted of it. Got it. Didn&apos;t say
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I&apos;m assuming that they&apos;re going to try and throw out the teeth
         marks that he never write.
         <br />
@@ -838,7 +838,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         I&apos;m assuming that he&apos;s saying he&apos;s,
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         he&apos;s innocent. But yeah, DNA does. I mean,
         <br />
         <br />
@@ -848,7 +848,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         right?
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         And he was probably mad that she brought her husband and he was like,
         dammit,
         <br />
@@ -858,7 +858,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         husband left and saw Sarah Walker go in by yourself.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Well, rest in peace or walker. Your how many years ago? 20 2006 I
         can&apos;t do math right now.
         <br />
@@ -867,7 +867,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         It&apos;s a long time ago that too much wine already? Oh,
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         well. My daughter was born in 2005. So 15 years ago. So God, that&apos;s
         very sad. I have a really hard time figuring out what the lives would be
         now and maybe the psychic. Yeah, the psychics fun. They actually did. I
@@ -881,7 +881,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         legit.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         I mean, I<br />
         <br />
         Raynee King <br />
@@ -891,7 +891,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Yes. By calming them down and feeling in the safe place.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Yes. You&apos;re gonna save space. You&apos;re all your feelings are
         valid here. Yes. The second one I I&apos;m having a hard time figuring
         out what the second one would be.
@@ -901,7 +901,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Do you want me to tell you should we wait till next week? We
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         can wait until next week. Okay. But I&apos;m I&apos;m very intrigued to
         figure out your story sounds vaguely familiar now that you&apos;ve told
         it? I think I did watch like some sort of crime show that did discuss
@@ -915,7 +915,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         like two real estate agents at the same time.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         You would think that that would be just standard
         <br />
         <br />
@@ -923,7 +923,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         but my that&apos;s a shame although I mean when we look for houses
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         That&apos;s true. We only had one person, right? And that person could
         have killed us could have gone both ways. Or you
         <br />
@@ -933,7 +933,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         You have no idea.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Oh my god. Yeah, that&apos;s like, I don&apos;t know if you know much
         about Israel keys. He&apos;s fresh on my mind right now because
         I&apos;ve been listening to lots of pipe podcasts about him. And
@@ -951,7 +951,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         place.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Exactly. Well, not and he he refused, like so many people don&apos;t
         know about him is because he made the police called, like, be quiet
         about his name, like not put any press out about him because he
@@ -964,7 +964,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         do anything to your daughter.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         Right? We&apos;re doing them. Yeah.
         <br />
         <br />
@@ -973,7 +973,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         are stupid.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         They&apos;re dumbasses. No, you&apos;re not you don&apos;t do crime. At
         least you do. I&apos;ll tell you.
         <br />
@@ -982,7 +982,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Who we are in a closet.
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         All right, so next week, next week, we will find out. Yeah, both of the
         <br />
         <br />
@@ -993,7 +993,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         put it up so people can actually see it. Now follow my drunken voice
         <br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         sounds good. So we should yeah. You don&apos;t remember? Or wrap? How do
         we? If you say Don&apos;t you crime? And I say
         <br />
@@ -1001,7 +1001,7 @@ export const TranscriptsPage: NextPage = (): JSX.Element => {
         Raynee King <br />
         you wait, is that it? I<br />
         <br />
-        Gretta Jane <br />
+        Greta Jane <br />
         think it&apos;s no it&apos;s gotta be more casual drink good wine. Good
         wine, guys. Let&apos;s do this over. drink good wine, and don&apos;t be
         a dumbass All right, guys, tell us what we should drink next. And call
