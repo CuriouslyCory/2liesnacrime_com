@@ -4,6 +4,11 @@ import { trpc } from "../utils/trpc";
 
 const Episodes: NextPage = () => {
   const { data: episodes, error, status } = trpc.useQuery(["episode.all"]);
+  const {
+    data: bsEpisodes,
+    error: bsError,
+    status: bsStatus,
+  } = trpc.useQuery(["buzzsprout.all"]);
 
   return (
     <>
@@ -21,6 +26,10 @@ const Episodes: NextPage = () => {
             />
           ))}
       </div>
+      {bsEpisodes &&
+        bsEpisodes.map((episode) => (
+          <div key={`bs-episode-${episode.id}`}>{episode.title}</div>
+        ))}
     </>
   );
 };
