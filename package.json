@@ -9,8 +9,8 @@
     "build": "run-s build:*",
     "start": "next start",
     "lint": "next lint",
-    "generate-client": "prisma generate",
-    "postinstall": "prisma generate",
+    "generate-client": "prisma generate --data-proxy",
+    "postinstall": "prisma generate --data-proxy",
     "generate-seed": "yarn ts-node -P ./tsconfig.json --transpile-only prisma/generate-seed.ts",
     "migrate": "DATABASE_URL=\"$MIGRATE_DATABASE_URL\" prisma migrate deploy"
   },
