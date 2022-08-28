@@ -1,5 +1,5 @@
 import { createRouter } from "./context";
-import { Episode, Prisma } from "@prisma/client";
+import { Episode, Prisma, User } from "@prisma/client";
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 

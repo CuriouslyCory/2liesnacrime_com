@@ -29,7 +29,7 @@ export const createContext = async (
     res,
     session,
     prisma,
-    user,
+    user: user || null,
   };
 };
 
