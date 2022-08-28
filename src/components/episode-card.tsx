@@ -3,9 +3,10 @@ import Link from "next/link";
 import { InferQueryOutput } from "../utils/trpc";
 import Script from "next/script";
 import { urlCode } from "../utils/buzzsprout-to-episode";
+import { Episode } from "@prisma/client";
 
 export type EpisodeCardProps = {
-  episode: InferQueryOutput<"episode.byId">;
+  episode: Episode;
 };
 
 export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
