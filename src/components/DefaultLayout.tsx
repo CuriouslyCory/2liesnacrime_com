@@ -24,12 +24,14 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
         >
           <div className="flex px-2 max-w-6xl mx-auto">
             <Link href="/">
-              <Image
-                src={logo}
-                height={125}
-                width={125}
-                alt="Illistration of two cats sitting on a crecent moon, holding wine glasses with their tails, with text 2 lies in a crime."
-              />
+              <div className="cursor-pointer">
+                <Image
+                  src={logo}
+                  height={125}
+                  width={125}
+                  alt="Illistration of two cats sitting on a crecent moon, holding wine glasses with their tails, with text 2 lies in a crime."
+                />
+              </div>
             </Link>
             <ul className="flex text-white gap-x-2 sm:gap-x-2 md:gap-x-5 items-center justify-center ml-auto">
               <li>

@@ -1,5 +1,5 @@
 import { createRouter } from "./context";
-import { Prisma } from "@prisma/client";
+import { Episode, Prisma } from "@prisma/client";
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 
@@ -10,12 +10,12 @@ export const defaultEpisodeSelect = Prisma.validator<Prisma.EpisodeSelect>()({
   seasonNumber: true,
   episodeNumber: true,
   description: true,
-  spotifyUrl: true,
   audioUrl: true,
   artworkUrl: true,
   buzzsproutId: true,
   buzzsproutGuid: true,
   tags: true,
+  duration: true,
   comments: false,
   createdAt: true,
   updatedAt: true,
@@ -55,7 +55,7 @@ export const episodeRouter = createRouter()
     input: z.object({
       slug: z.string(),
     }),
-    async resolve({ ctx, input }) {
+    async resolve({ ctx, input }): Promise<Episode> {
       const { slug } = input;
       const episode = await ctx.prisma.episode.findUnique({
         where: { slug },
@@ -70,12 +70,71 @@ export const episodeRouter = createRouter()
       return episode;
     },
   })
-  .mutation("update", {
+  .middleware(async ({ ctx, next }) => {
+    // Any queries or mutations after this middleware will
+    // raise an error unless there is a current session
+    if (!ctx.session || !ctx.user?.isAdmin) {
+      throw new TRPCError({ code: "UNAUTHORIZED" });
+    }
+    return next();
+  })
+  .mutation("create", {
     input: z.object({
-      id: z.string().uuid().optional(),
       slug: z.string(),
+      seasonNumber: z.number(),
+      episodeNumber: z.number(),
       title: z.string(),
       description: z.string(),
+      audioUrl: z.string(),
+      artworkUrl: z.string(),
+      duration: z.number(),
+      buzzsproutId: z.number(),
+      buzzsproutGuid: z.string(),
+    }),
+    async resolve({ ctx, input }) {
+      const {
+        slug,
+        seasonNumber,
+        episodeNumber,
+        title,
+        description,
+        audioUrl,
+        artworkUrl,
+        duration,
+        buzzsproutId,
+        buzzsproutGuid,
+      } = input;
+
+      const episode = await ctx.prisma.episode.create({
+        data: {
+          slug,
+          seasonNumber,
+          episodeNumber,
+          title,
+          description,
+          audioUrl,
+          artworkUrl,
+          duration,
+          buzzsproutId,
+          buzzsproutGuid,
+        },
+      });
+      return episode;
+    },
+  })
+  .mutation("update", {
+    input: z.object({
+      id: z.string(),
+      slug: z.string(),
+      seasonNumber: z.number(),
+      episodeNumber: z.number(),
+      title: z.string(),
+      description: z.string(),
+      audioUrl: z.string(),
+      artworkUrl: z.string(),
+      duration: z.number(),
+      buzzsproutId: z.number(),
+      buzzsproutGuid: z.string(),
     }),
     async resolve({ ctx, input }) {
       const { id, ...data } = input;

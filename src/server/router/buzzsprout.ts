@@ -2,6 +2,7 @@ import { createRouter } from "./context";
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 import axios from "axios";
+import { buzzsproutToEpisode } from "../../utils/buzzsprout-to-episode";
 
 export type BuzzsproutEpisode = {
   id: number;
@@ -42,6 +43,6 @@ export const buzzsproutRouter = createRouter().query("all", {
         message: "Error fetching episodes",
       });
     }
-    return result.data;
+    return result.data.map((episode) => buzzsproutToEpisode(episode));
   },
 });

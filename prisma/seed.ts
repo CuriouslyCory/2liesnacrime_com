@@ -8,11 +8,10 @@ import comments from "./seeds/comments.json";
 const prisma = new PrismaClient();
 
 async function main() {
-    await prisma.episode.createMany({ data: episodes });
-    await prisma.comment.createMany({ data: comments });
-    await prisma.tag.createMany({ data: tags });
-    await prisma.tagsOnEpisodes.createMany({ data: tagsOnEpisodes });
-    
+  await prisma.episode.createMany({ data: episodes });
+  await prisma.comment.createMany({ data: comments });
+  await prisma.tag.createMany({ data: tags });
+  await prisma.tagsOnEpisodes.createMany({ data: tagsOnEpisodes });
 }
 
 main()

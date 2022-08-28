@@ -1,28 +1,67 @@
-import Link from "next/link";
-import { FaSpotify } from "react-icons/fa";
-import { InferQueryOutput } from "../utils/trpc";
+import { Episode } from "@prisma/client";
+import clsx from "clsx";
+import { ChangeEventHandler, Ref, useEffect, useRef, useState } from "react";
+import { trpc } from "../utils/trpc";
 
 export type AdminEpisodeListItemProps = {
-  episode: InferQueryOutput<"episode.byId">;
+  episode: Episode;
 };
 
 export const AdminEpisodeListItem = ({
   episode,
 }: AdminEpisodeListItemProps): JSX.Element => {
+  const utils = trpc.useContext();
+  const [localEpisode, setLocalEpisode] = useState<Episode>({
+    ...episode,
+  });
+
+  const updateEpisodeMutation = trpc.useMutation(["episode.update"], {
+    onSuccess(input) {
+      utils.invalidateQueries(["episode.all"]);
+      utils.invalidateQueries(["episode.byId"]);
+      utils.invalidateQueries(["episode.bySlug"]);
+    },
+  });
+
+  const updateEpisode = () => {
+    updateEpisodeMutation.mutate(localEpisode);
+  };
+
+  useEffect(() => {
+    console.log(localEpisode);
+  }, [localEpisode]);
+
   return (
     <div className="flex flex-col gap-y-2 p-2 m-2 border-2 border-slate-700">
       <div className="flex gap-x-2">
         <label>Slug</label>
-        <input type="text" value={episode.slug} placeholder="title" />
+        <input
+          type="text"
+          value={localEpisode.slug}
+          onChange={(e) =>
+            setLocalEpisode({ ...localEpisode, slug: e.target.value })
+          }
+        />
         <label>Title</label>
-        <input type="text" value={episode.title} placeholder="title" />
+        <input
+          type="text"
+          value={localEpisode.title}
+          onChange={(e) =>
+            setLocalEpisode({ ...localEpisode, title: e.target.value })
+          }
+        />
       </div>
       <label>Description</label>
-      <textarea value={episode.description} placeholder="title" />
-      <label>Spotify Url</label>
-      <input type="text" value={episode.spotifyUrl} placeholder="title" />
+      <textarea
+        value={localEpisode.description}
+        onChange={(e) =>
+          setLocalEpisode({ ...localEpisode, description: e.target.value })
+        }
+      />
       <div className="block">
-        <button className="p-2 bg-slate-200">Submit</button>
+        <button className="p-2 bg-slate-200" onClick={updateEpisode}>
+          Update
+        </button>
       </div>
     </div>
   );

@@ -70,7 +70,6 @@ model Episode {
     description     String
     tags            TagsOnEpisodes[]
     comments        Comment[]
-    spotifyUrl      String      @default("")
     audioUrl        String      @default("")
     artworkUrl      String      @default("")
     duration        Int         @default(0)

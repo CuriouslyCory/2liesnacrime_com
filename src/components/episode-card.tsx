@@ -2,19 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { InferQueryOutput } from "../utils/trpc";
 import Script from "next/script";
+import { urlCode } from "../utils/buzzsprout-to-episode";
 
 export type EpisodeCardProps = {
   episode: InferQueryOutput<"episode.byId">;
 };
 
 export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
-  const urlCode = (): string => {
-    const urlPart = episode.audioUrl.split("/");
-    const lastElement = urlPart.pop();
-    const slug = lastElement?.slice(0, -4);
-    return slug || "";
-  };
-
   return (
     <div className="hero mx-auto grid grid-cols-3 grid-span-2 gap-5 my-10 max-w-6xl">
       <div id="left-section" className="flex flex-col h-full col-span-2">
@@ -31,7 +25,9 @@ export const EpisodeCard = ({ episode }: EpisodeCardProps): JSX.Element => {
         <div className="block mt-5">
           <div id={`buzzsprout-player-${episode.buzzsproutId}`}></div>
           <Script
-            src={`https://www.buzzsprout.com/2020224/${urlCode()}.js?container_id=buzzsprout-player-${
+            src={`https://www.buzzsprout.com/2020224/${urlCode(
+              episode.audioUrl,
+            )}.js?container_id=buzzsprout-player-${
               episode.buzzsproutId
             }&player=small`}
             type="text/javascript"
