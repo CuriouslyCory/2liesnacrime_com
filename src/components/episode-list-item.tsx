@@ -26,15 +26,6 @@ export const EpisodeListItem = ({
         <h1 className="title-font font-serif text-3xl pb-5">{episode.title}</h1>
         <p className="pb-3">{episode.description}</p>
 
-        <div className="block">
-          <Link href={episode.spotifyUrl}>
-            <button className="block rounded-full p-2 bg-slate-50 flex items-center gap-x-2">
-              <FaSpotify className="text-[#1db954]" />
-              Listen now on Spotify
-            </button>
-          </Link>
-        </div>
-
         <span className="justify-self-end mt-auto underline">
           <Link href={`/transcripts/${episode.slug}`}>Episode Transcript</Link>
         </span>
