@@ -1,5 +1,27 @@
-import { Episode } from "@prisma/client";
-import { BuzzsproutEpisode } from "../server/router/buzzsprout";
+import { type Episode } from "@prisma/client";
+
+export type BuzzsproutEpisode = {
+  id: number;
+  title: string;
+  audio_url: string;
+  artwork_url: string;
+  description: string;
+  summary: string;
+  artist: string;
+  tags: string;
+  published_at: Date;
+  duration: number;
+  hq: boolean;
+  magic_mastering: boolean;
+  guid: string;
+  inactive_at?: string;
+  custom_url?: string;
+  episode_number: number;
+  season_number: number;
+  explicit: boolean;
+  private: boolean;
+  total_plays: number;
+};
 
 export const buzzsproutToEpisode = (
   episode: BuzzsproutEpisode,
@@ -24,5 +46,5 @@ export const urlCode = (audioUrl: string): string => {
   const urlPart = audioUrl.split("/");
   const lastElement = urlPart.pop();
   const slug = lastElement?.slice(0, -4);
-  return slug || "";
+  return slug ?? "";
 };
