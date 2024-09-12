@@ -1,7 +1,6 @@
 import { api, HydrateClient } from "~/trpc/server";
 import MainHero from "./_components/main-hero";
 import { EpisodeCard } from "./_components/episode-card";
-import Link from "next/link";
 import Image from "next/image";
 
 export default async function Home() {
@@ -27,6 +26,11 @@ export default async function Home() {
           {episodes?.map((episode) => (
             <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />
           ))}
+
+          <p>
+            The future of 2 Lies in a Crime is unclear, but for now we&quot;re
+            enjoying a hiatus. Please check out our social media for updates.
+          </p>
         </div>
         <div className="flex w-full justify-center p-10">
           <div className="mt-5 block">
