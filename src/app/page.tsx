@@ -1,13 +1,8 @@
-import { api, HydrateClient } from "~/trpc/server";
+import { HydrateClient } from "~/trpc/server";
 import MainHero from "./_components/main-hero";
-import { EpisodeCard } from "./_components/episode-card";
 import Image from "next/image";
 
 export default async function Home() {
-  const episodes = await api.episode.all();
-
-  void api.episode.all.prefetch();
-
   return (
     <HydrateClient>
       <main className="">
@@ -20,14 +15,10 @@ export default async function Home() {
         </div>
         <MainHero />
         <div
-          className="flex w-full flex-col items-center justify-center gap-y-3 bg-amber-200 bg-cover bg-right bg-no-repeat px-5 pb-10 md:px-0"
+          className="flex w-full flex-col items-center justify-center gap-y-3 bg-amber-200 bg-cover bg-right bg-no-repeat px-5 py-10 md:px-0"
           style={{ backgroundImage: "url('/images/yellow-corks.webp')" }}
         >
-          {episodes?.map((episode) => (
-            <EpisodeCard key={`episode-card-${episode.id}`} episode={episode} />
-          ))}
-
-          <p>
+          <p className="font-bold`">
             The future of 2 Lies in a Crime is unclear, but for now we&quot;re
             enjoying a hiatus. Please check out our social media for updates.
           </p>
